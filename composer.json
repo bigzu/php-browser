@@ -1,0 +1,15 @@
+{
+    "name": "bigzu/php-browser",
+    "description": "Packed PHP Webdriver",
+    "type": "library",
+    "require": {
+        "php-webdriver/webdriver": "^1.8"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Bigzu\\Browser\\": "src"
+        }
+    }
+}
